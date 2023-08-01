@@ -1,4 +1,4 @@
-export interface Token {
+export type Token = {
     // Name of the token
     name: string;
 
@@ -16,7 +16,7 @@ export interface Token {
 
     // If the token is native (ETH on Ethereum)
     isNative: boolean;
-    
+
     // Price in USD
     price: number;
 };
